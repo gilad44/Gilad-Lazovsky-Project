@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: gowun batang;
+}
+
+#main {
+  height: 80px;
+  background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, #9cbdef);
+  box-shadow: 0 0 50px 10px #9cbdef;
+}
+
+#main #navBarBrand {
+  font-family: shadows into light;
+  transform: rotate(-10deg);
+  font-size: 45px;
+}
+
+#main #lang img {
+  width: 80px;
+  height: 54px;
+}
+
+#main #TopBar {
+  margin-left: 590px;
+}
+
+#main li {
+  font-weight: 600;
+}
+
+#main li :hover {
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px skyblue;
+}
+
+#mainTitle {
+  letter-spacing: 3px;
+}
+
+#techno img {
+  width: 40px;
+  height: 40px;
+  margin: 5px 20px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 900px;
+  background-color: #4c879b;
+  padding-bottom: 30px;
+  scroll-margin-top: 80px;
+}
+
+#about h1 {
+  margin-bottom: 25px;
+}
+
+#about p {
+  font-weight: 600;
+}
+
+#about #photo {
+  width: 130px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#about #photo img {
+  width: 190px;
+  height: 210px;
+}
+
+#about #text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  font-size: 20px;
+  background-color: rgba(167, 225, 248, 0.692);
+  box-shadow: 0 0 20px 10px #2e5a37;
+  margin-top: 30px;
+  padding: 70px 50px 60px 50px;
+}
+
+#about #resume {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 60px 0 0 0px;
+}
+
+#about #resume button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  box-shadow: 0 0 20px 0px #9cbdef;
+}
+
+#gallery {
+  letter-spacing: 3px;
+  scroll-margin-top: 80px;
+}
+
+#works {
+  height: 1550px;
+}
+
+#works #box {
+  width: 80%;
+  height: 1500px;
+  box-shadow: .5px .5px 10px 3px inset;
+}
+
+#works #box .card {
+  width: 250px;
+  height: 400px;
+  text-align: center;
+}
+
+#works #box .card img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#works #box .card .card-footer .container {
+  width: 150px;
+  background: linear-gradient(white, #0a7da6);
+  box-shadow: 0px 0px 10px 10px white;
+  border-radius: 30px;
+}
+
+#works #box .card .card-footer a {
+  font-weight: 600;
+}
+
+#contact {
+  background-color: #4c879b;
+  scroll-margin-top: 80px;
+  height: auto;
+}
+
+#contact div img {
+  margin-left: -70px;
+  box-shadow: -3px 3px 10px 0px black;
+}
+
+#contact form {
+  font-weight: 600;
+}
+
+#contact form div {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form div label {
+  font-size: 18px;
+  width: 150px;
+}
+
+#contact form div input {
+  border: none;
+  margin-bottom: 10px;
+  width: 300px;
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+#contact form div textarea {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 150px;
+  margin: 0px 83px 0 0;
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+#contact form #send {
+  font-weight: 600;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 20px 83px 40px 0px;
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  background-color: #060606;
+}
+
+#social img {
+  filter: drop-shadow(0px 0px 5px skyblue);
+}
+
+@media (max-width: 768px) {
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #main #navBarBrand {
+    width: 50px;
+    font-size: 30px;
+  }
+  #main #lang {
+    margin-left: 450px;
+    width: 25px;
+    height: 35px;
+  }
+  #main #lang img {
+    width: 50px;
+    height: 37px;
+  }
+  #main li {
+    text-align: center !important;
+    height: 59px !important;
+    width: 830px !important;
+    padding: 5px 0 0 50px !important;
+    margin: 0 0px 0 -500px !important;
+    background: radial-gradient(skyblue 10%, whitesmoke);
+  }
+  #mainTitle {
+    margin: 0;
+    padding: 0;
+  }
+  #about {
+    height: auto;
+  }
+  #about #photo {
+    width: 90px;
+    height: 90px;
+  }
+  #about #photo img {
+    width: 150px;
+    height: 170px;
+  }
+  #about #text {
+    text-align: center;
+    font-weight: 600;
+    gap: 10px;
+    flex-direction: column;
+    width: 85%;
+    height: 70%;
+    font-size: 15px;
+    padding: 30px 40px;
+  }
+  #about #text h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #about #resume button {
+    margin-bottom: 20px;
+  }
+  #works {
+    width: 100%;
+    height: 250% !important;
+    padding-bottom: 50px;
+  }
+  #works #box {
+    width: 90% !important;
+    gap: 10px !important;
+    height: 1500px !important;
+  }
+  #works #box .card {
+    width: 45%;
+    height: 30%;
+  }
+  #works #box .card img {
+    width: 90%;
+    height: 90%;
+  }
+  #works #box .card .card-footer .container {
+    width: 150px;
+    background: linear-gradient(white, #0a7da6);
+    box-shadow: 0px 0px 10px 10px white;
+    border-radius: 30px;
+  }
+  #works #box .card .card-footer a {
+    font-weight: 600;
+  }
+  #contact {
+    height: auto;
+    margin-top: 0 !important;
+    padding-top: 10px;
+  }
+  #contact div img {
+    visibility: hidden;
+    margin: 0px -470px 0 0px !important;
+    flex-direction: column;
+    width: 0px !important;
+    height: 0px !important;
+  }
+  #contact form {
+    margin-left: 170px;
+    margin-top: 20px;
+  }
+  #contact form div {
+    flex-direction: row;
+  }
+  #contact form div label {
+    margin-bottom: 3px;
+    font-size: 16px;
+  }
+  #contact form div input {
+    width: 300px;
+  }
+  #contact form div textarea {
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -20px;
+  }
+  #contact form #send {
+    width: 300px;
+    margin: 20px 0px 40px 150px;
+  }
+  #social {
+    height: 50px;
+  }
+  #social img {
+    width: auto !important;
+    height: 80% !important;
+    filter: drop-shadow(0px 0px 5px skyblue);
+  }
+}
+
+@media (max-width: 1200px) {
+  #main #navBarBrand {
+    font-size: 38px;
+  }
+  #main #TopBar {
+    margin-left: 425px;
+  }
+  #main #TopBar li {
+    width: 80px;
+  }
+}
