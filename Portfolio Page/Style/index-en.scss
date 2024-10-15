@@ -252,8 +252,8 @@ $fw: 600;
             height: 35px;
 
             img {
-                width: 50px;
-                height: 37px;
+                width: 50px !important;
+                height: 37px !important;
             }
         }
 
@@ -262,7 +262,7 @@ $fw: 600;
         li {
             text-align: center !important;
             height: 59px !important;
-            width: 830px !important;
+            width: 855px !important;
             padding: 5px 0 0 50px !important;
             margin: 0 0px 0 -500px !important;
             background: radial-gradient(skyblue 10%, whitesmoke);
@@ -279,17 +279,17 @@ $fw: 600;
         height: auto;
 
         #photo {
-            width: 90px;
-            height: 90px;
+            width: 90px !important;
+            height: 90px !important;
 
             img {
-                width: 150px;
-                height: 170px;
+                width: 150px !important;
+                height: 170px !important;
             }
         }
 
         #text {
-            text-align: center;
+            width: 80%;
 
             h1 {
                 font-weight: bold;
@@ -301,7 +301,7 @@ $fw: 600;
             flex-direction: column;
             width: 85%;
             height: 70%;
-            font-size: 15px;
+            font-size: 18px;
             padding: 30px 40px;
         }
 
@@ -313,39 +313,16 @@ $fw: 600;
     }
 
     #works {
-        width: 100%;
+        width: 100% !important;
         height: 250% !important;
-        padding-bottom: 50px;
+        padding-bottom: 50px !important;
 
         #box {
             width: 90% !important;
-            gap: 10px !important;
-            height: 1500px !important;
+            gap: 20px !important;
+            height: 250% !important;
 
-            .card {
-                width: 45%;
-                height: 30%;
 
-                & img {
-                    width: 90%;
-                    height: 90%;
-
-                }
-
-                .card-footer {
-
-                    .container {
-                        width: 150px;
-                        background: linear-gradient(white, rgb(10, 125, 166));
-                        box-shadow: 0px 0px 10px 10px white;
-                        border-radius: 30px;
-                    }
-
-                    a {
-                        font-weight: $fw;
-                    }
-                }
-            }
 
         }
 
@@ -375,7 +352,7 @@ $fw: 600;
 
 
                 label {
-                    margin-bottom: 3px;
+                    margin-bottom: 10px !important;
                     font-size: 16px;
                 }
 
@@ -416,11 +393,27 @@ $fw: 600;
         }
 
         #TopBar {
-            margin-left: 425px;
+            margin-left: 400px;
 
             li {
                 width: 80px;
             }
         }
+
+    }
+
+    #about {
+
+        h1 {
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        #text {
+            height: 55% !important;
+            font-size: 20px !important;
+            margin-top: 30px !important;
+        }
+
     }
 }

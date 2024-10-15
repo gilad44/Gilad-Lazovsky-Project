@@ -248,22 +248,28 @@ $fw: 600;
 
         #lang {
             margin-left: 450px;
+            margin-bottom: 15px;
             width: 25px;
             height: 35px;
 
             img {
-                width: 50px;
-                height: 37px;
+                width: 50px !important;
+                height: 37px !important;
             }
+        }
+
+        #TopBar {
+            margin-top: -16px !important;
+
         }
 
         li {
             text-align: center !important;
-            height: 59px;
-            width: 400%;
-            padding: 0 0 0 0;
-            margin: 0 -10px 0 0 !important;
-            background: radial-gradient(whitesmoke 30%, lightblue, skyblue);
+            height: 59px !important;
+            width: 835px !important;
+            padding: 5px 0 0 50px !important;
+            margin: 0 0px 0 -500px !important;
+            background: radial-gradient(skyblue 10%, whitesmoke);
         }
     }
 
@@ -273,20 +279,20 @@ $fw: 600;
     }
 
     #about {
-        height: auto;
+        height: auto !important;
 
         #photo {
-            width: 90px;
-            height: 90px;
+            width: 90px !important;
+            height: 90px !important;
 
             img {
-                width: 150px;
-                height: 170px;
+                width: 150px !important;
+                height: 170px !important;
             }
         }
 
         #text {
-            text-align: center;
+            width: 80% !important;
 
             h1 {
                 font-weight: bold;
@@ -322,32 +328,9 @@ $fw: 600;
         #box {
             width: 90% !important;
             gap: 10px !important;
-            height: 1500px !important;
+            height: 1800px !important;
 
-            .card {
-                width: 45%;
-                height: 30%;
 
-                & img {
-                    width: 90%;
-                    height: 90%;
-
-                }
-
-                .card-footer {
-
-                    .container {
-                        width: 150px;
-                        background: linear-gradient(white, rgb(10, 125, 166));
-                        box-shadow: 0px 0px 10px 10px white;
-                        border-radius: 30px;
-                    }
-
-                    a {
-                        font-weight: $fw;
-                    }
-                }
-            }
 
         }
 
@@ -369,13 +352,12 @@ $fw: 600;
         }
 
         form {
+            margin-right: 170px;
             margin-top: 20px;
 
             div {
-                display: flex;
-                flex-direction: column;
+                flex-direction: row;
 
-                margin: 2px 65px 0px 0 !important;
 
                 label {
                     margin-bottom: 3px;
@@ -383,20 +365,20 @@ $fw: 600;
                 }
 
                 input {
-                    width: 250px;
+                    width: 300px;
                 }
 
+                textarea {
+                    width: 300px;
+                    margin-left: 150px;
+                    margin-top: -20px;
+                }
             }
 
-            textarea {
-                width: 250px;
-                margin-right: 0px;
-                margin-top: 0;
-            }
 
             #send {
-                width: 250px;
-                margin: 20px 65px 40px 0px;
+                width: 300px !important;
+                margin: 20px 0px 40px 150px;
             }
         }
     }
@@ -435,17 +417,13 @@ $fw: 600;
         }
 
         #TopBar {
-            margin-left: 420px;
+            margin-left: 420px !important;
             direction: rtl;
 
 
             li {
+                font-size: 20px !important;
                 width: 80px;
-
-                :hover {
-                    border-radius: 20px;
-                    box-shadow: 0 0 20px 5px skyblue;
-                }
             }
         }
     }
@@ -468,7 +446,7 @@ $fw: 600;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
-        height: 750px;
+        height: 900px;
         background-color: $bg-color;
         padding-bottom: 30px;
         scroll-margin-top: 80px;
@@ -524,39 +502,39 @@ $fw: 600;
     }
 
     #works {
-        height: 1100px;
+        height: 1600px;
 
         #box {
             box-shadow: .5px .5px 10px 3px inset;
 
 
-            .card {
-                width: 250px;
-                height: 400px;
-                direction: rtl;
-                text-align: center;
+            // .card {
+            //     width: 250px;
+            //     height: 400px;
+            //     direction: rtl;
+            //     text-align: center;
 
-                & img {
-                    width: 200px;
-                    height: 100px;
-                    object-fit: contain;
+            //     & img {
+            //         width: 200px;
+            //         height: 100px;
+            //         object-fit: contain;
 
-                }
+            //     }
 
-                .card-footer {
+            //     .card-footer {
 
-                    .container {
-                        width: 150px;
-                        background: linear-gradient(white, rgb(10, 125, 166));
-                        box-shadow: 0px 0px 10px 10px white;
-                        border-radius: 30px;
-                    }
+            //         .container {
+            //             width: 150px;
+            //             background: linear-gradient(white, rgb(10, 125, 166));
+            //             box-shadow: 0px 0px 10px 10px white;
+            //             border-radius: 30px;
+            //         }
 
-                    a {
-                        font-weight: $fw;
-                    }
-                }
-            }
+            //         a {
+            //             font-weight: $fw;
+            //         }
+            //     }
+            // }
         }
     }
 
