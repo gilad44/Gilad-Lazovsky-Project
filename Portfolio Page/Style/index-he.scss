@@ -2,8 +2,8 @@ $bg-color: rgb(76, 135, 155);
 $fw: 600;
 
 @font-face {
-    font-family: anti;
-    src: url(../Fonts/Antiochus.ttf);
+    font-family: dybbuk;
+    src: url(../Fonts/Dybbuk.ttf);
 }
 
 * {
@@ -19,7 +19,7 @@ $fw: 600;
 
 
     #navBarBrand {
-        font-family: anti;
+        font-family: dybbuk;
         transform: rotate(-10deg);
         font-size: 45px;
     }
@@ -242,8 +242,9 @@ $fw: 600;
 
 
         #navBarBrand {
+            font-family: dybbuk;
             width: 50px;
-            font-size: 30px;
+            font-size: 35px !important;
         }
 
         #lang {
@@ -402,7 +403,7 @@ $fw: 600;
 
 
         #navBarBrand {
-            font-family: anti;
+            font-family: dybbuk;
             transform: rotate(-10deg);
             font-size: 45px;
         }

@@ -1,6 +1,6 @@
 @font-face {
-  font-family: anti;
-  src: url(../Fonts/Antiochus.ttf);
+  font-family: dybbuk;
+  src: url(../Fonts/Dybbuk.ttf);
 }
 
 * {
@@ -16,7 +16,7 @@
 }
 
 #main #navBarBrand {
-  font-family: anti;
+  font-family: dybbuk;
   transform: rotate(-10deg);
   font-size: 45px;
 }
@@ -222,8 +222,9 @@
     width: 100%;
   }
   #main #navBarBrand {
+    font-family: dybbuk;
     width: 50px;
-    font-size: 30px;
+    font-size: 35px !important;
   }
   #main #lang {
     margin-left: 450px;
@@ -344,7 +345,7 @@
     box-shadow: 0 0 50px 10px #9cbdef;
   }
   #main #navBarBrand {
-    font-family: anti;
+    font-family: dybbuk;
     transform: rotate(-10deg);
     font-size: 45px;
   }
