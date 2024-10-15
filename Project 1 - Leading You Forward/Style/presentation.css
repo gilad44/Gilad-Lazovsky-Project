@@ -92,7 +92,7 @@
             a {
                 text-decoration: none;
 
-                &:visited {
+                :visited {
                     color: #2C2C2C;
                 }
             }
