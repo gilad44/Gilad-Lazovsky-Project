@@ -173,6 +173,7 @@ body {
                 margin-top: -600px !important;
                 margin-bottom: -120px !important;
                 margin-left: 10px !important;
+                z-index: 4;
 
                 img {
                     width: 360px;
