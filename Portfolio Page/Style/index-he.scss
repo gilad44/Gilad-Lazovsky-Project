@@ -12,6 +12,8 @@ $fw: 600;
     font-family: assistant;
 }
 
+///////////////////////////////////////////////// Main Title/////////////////////////////////////////////////////
+
 #main {
     height: 80px;
     background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, rgb(156, 189, 239));
@@ -54,6 +56,8 @@ $fw: 600;
     letter-spacing: 3px;
 }
 
+/////////////////////////////////////////////// Technologies/////////////////////////////////////////////////////
+ 
 #techno {
     img {
         width: 40px;
@@ -62,6 +66,8 @@ $fw: 600;
     }
 }
 
+///////////////////////////////////////////////// About/////////////////////////////////////////////////////
+ 
 #about {
     display: flex;
     flex-direction: column;
@@ -117,16 +123,23 @@ $fw: 600;
         width: 100%;
         padding: 60px 0 0 0px;
 
-        & button {
+        button {
             width: 200px;
             height: 50px;
             border-radius: 30px;
             margin-top: 20px;
             font-weight: $fw;
             box-shadow: 0 0 20px 0px rgb(156, 189, 239);
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
         }
     }
 }
+
+///////////////////////////////////////////////// Gallery ///////////////////////////////////////////////////////
 
 #gallery {
     letter-spacing: 3px;
@@ -140,8 +153,6 @@ $fw: 600;
         width: 80%;
         height: 1500px;
         box-shadow: .5px .5px 10px 3px inset;
-
-
 
         .card {
             width: 250px;
@@ -172,6 +183,8 @@ $fw: 600;
         }
     }
 }
+
+/////////////////////////////////////////////////////Contact/////////////////////////////////////////////////////
 
 #contact {
     background-color: $bg-color;
@@ -220,6 +233,8 @@ $fw: 600;
     }
 }
 
+//////////////////////////////////////////////////// Social /////////////////////////////////////////////////////
+
 #social {
     display: flex;
     align-items: center;
@@ -232,6 +247,8 @@ $fw: 600;
         filter: drop-shadow(0px 0px 5px skyblue);
     }
 }
+
+/////////////////////////////////////////////////// Mobile///////////////////////////////////////////////////////
 
 @media (max-width:768px) {
     #main {
@@ -311,7 +328,7 @@ $fw: 600;
 
         #resume {
             button {
-                margin-bottom: 20px;
+                margin-bottom: 60px;
             }
         }
     }
@@ -324,17 +341,20 @@ $fw: 600;
     #works {
         width: 100%;
         height: 250% !important;
-        padding-bottom: 50px;
+        padding-bottom: 50px !important;
 
         #box {
-            width: 90% !important;
-            gap: 10px !important;
-            height: 1800px !important;
+            width: 90%;
+            gap: 10px;
+            height: 1850px !important;
 
-
-
+            .card {
+                h4 {
+                    width: 96%;
+                    padding-right: 5px;
+                }
+            }
         }
-
     }
 
     #contact {
@@ -442,157 +462,31 @@ $fw: 600;
     }
 
     #about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 100%;
-        height: 900px;
-        background-color: $bg-color;
-        padding-bottom: 30px;
-        scroll-margin-top: 80px;
-
-        #photo {
-            width: 130px;
-            height: 140px;
-            overflow: hidden;
-            border-radius: 50%;
-            margin-top: 50px;
-
-            img {
-                width: 190px;
-                height: 210px;
-            }
-        }
-
-        #text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 50%;
-            height: 50%;
-            font-size: 20px;
-            background-color: rgba(167, 225, 248, 0.692);
-            box-shadow: 0 0 20px 10px rgb(46, 90, 55);
-            margin-top: 30px;
-            padding: 70px 50px 60px 50px;
-            direction: rtl;
-        }
-
-        #resume {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            padding: 60px 0 0 0px;
-
-            & button {
-                width: 200px;
-                height: 50px;
-                border-radius: 30px;
-                margin-top: 0;
-                font-weight: $fw;
-                box-shadow: 0 0 20px 0px rgb(156, 189, 239);
-            }
-        }
-    }
-
-    #gallery {
-        letter-spacing: 3px;
-        scroll-margin-top: 80px;
+        padding-bottom: 0px;
     }
 
     #works {
         height: 1600px;
-
-        #box {
-            box-shadow: .5px .5px 10px 3px inset;
-
-
-            // .card {
-            //     width: 250px;
-            //     height: 400px;
-            //     direction: rtl;
-            //     text-align: center;
-
-            //     & img {
-            //         width: 200px;
-            //         height: 100px;
-            //         object-fit: contain;
-
-            //     }
-
-            //     .card-footer {
-
-            //         .container {
-            //             width: 150px;
-            //             background: linear-gradient(white, rgb(10, 125, 166));
-            //             box-shadow: 0px 0px 10px 10px white;
-            //             border-radius: 30px;
-            //         }
-
-            //         a {
-            //             font-weight: $fw;
-            //         }
-            //     }
-            // }
-        }
     }
 
     #contact {
-        background-color: $bg-color;
-        direction: rtl;
-        scroll-margin-top: 80px;
 
-        div {
-            font-weight: $fw;
-
-            img {
-                box-shadow: -3px 3px 10px 0px rgb(0, 0, 0);
-            }
-        }
 
         form {
-            label {
-                font-size: 18px;
-                width: 80px;
-            }
-
             input {
-                border: none;
-                margin-bottom: 10px;
                 width: 250px;
-                box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
-
             }
 
             textarea {
                 width: 250px;
-                height: 150px;
                 margin: -15px 83px 0 0;
             }
 
             #send {
-                font-weight: $fw;
                 width: 250px;
-                height: 30px;
-                border-radius: 30px;
                 margin: 20px 85px 35px 0px;
-                box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
+
             }
-        }
-    }
-
-    #social {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-        height: 70px;
-        background-color: rgb(6, 6, 6);
-
-        img {
-            filter: drop-shadow(0px 0px 5px skyblue);
         }
     }
 }

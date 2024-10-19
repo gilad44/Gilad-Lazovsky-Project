@@ -216,3 +216,52 @@
         }
     }
 }
+
+@media(max-width:375px) {
+    #main {
+        #bg {
+            #bg-pic {
+                height: 60% !important;
+            }
+
+            #text {
+                h1 {
+                    top: 50px;
+                    font-size: 30px;
+                }
+
+                p {
+                    width: 60%;
+                    font-size: 15px;
+                    top: 100px;
+                }
+            }
+        }
+    }
+
+
+    #contact {
+        form {
+            flex-wrap: wrap;
+            margin-top: -150px !important;
+            margin-bottom: 150px !important;
+        }
+
+        label {
+            font-size: 15px;
+        }
+
+        input {
+            width: 230px;
+            height: 30px;
+            background-color: #E5EEFF;
+            border-bottom: 3px solid #d3e10e;
+        }
+
+        #send {
+            width: 200px;
+            height: 35px;
+            margin-right: 0px;
+        }
+    }
+}

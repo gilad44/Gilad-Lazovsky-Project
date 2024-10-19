@@ -2,7 +2,6 @@
   font-family: dybbuk;
   src: url(../Fonts/Dybbuk.ttf);
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -11,32 +10,27 @@
 
 #main {
   height: 80px;
-  background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, #9cbdef);
-  box-shadow: 0 0 50px 10px #9cbdef;
+  background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, rgb(156, 189, 239));
+  box-shadow: 0 0 50px 10px rgb(156, 189, 239);
 }
-
 #main #navBarBrand {
   font-family: dybbuk;
   transform: rotate(-10deg);
   font-size: 45px;
 }
-
 #main #lang img {
   width: 80px;
   height: 54px;
 }
-
 #main #TopBar {
   margin-left: 500px;
   direction: rtl;
 }
-
 #main li {
   font-size: 23px !important;
   font-weight: 600;
   direction: rtl;
 }
-
 #main li :hover {
   border-radius: 20px;
   box-shadow: 0 0 20px 5px skyblue;
@@ -59,19 +53,16 @@
   justify-content: flex-start;
   width: 100%;
   height: 900px;
-  background-color: #4c879b;
+  background-color: rgb(76, 135, 155);
   padding-bottom: 30px;
   scroll-margin-top: 80px;
 }
-
 #about h1 {
   margin-bottom: 25px;
 }
-
 #about p {
   font-weight: 600;
 }
-
 #about #photo {
   width: 130px;
   height: 140px;
@@ -81,12 +72,10 @@
   margin-bottom: 20px;
   margin-right: 20px;
 }
-
 #about #photo img {
   width: 190px;
   height: 210px;
 }
-
 #about #text {
   display: flex;
   flex-direction: column;
@@ -96,26 +85,28 @@
   height: 50%;
   font-size: 20px;
   background-color: rgba(167, 225, 248, 0.692);
-  box-shadow: 0 0 20px 10px #2e5a37;
+  box-shadow: 0 0 20px 10px rgb(46, 90, 55);
   margin-top: 30px;
   padding: 70px 50px 60px 50px;
   direction: rtl;
 }
-
 #about #resume {
   display: flex;
   justify-content: center;
   width: 100%;
   padding: 60px 0 0 0px;
 }
-
 #about #resume button {
   width: 200px;
   height: 50px;
   border-radius: 30px;
   margin-top: 20px;
   font-weight: 600;
-  box-shadow: 0 0 20px 0px #9cbdef;
+  box-shadow: 0 0 20px 0px rgb(156, 189, 239);
+}
+#about #resume button a {
+  color: black;
+  text-decoration: none;
 }
 
 #gallery {
@@ -126,79 +117,68 @@
 #works {
   height: 1550px;
 }
-
 #works #box {
   width: 80%;
   height: 1500px;
-  box-shadow: .5px .5px 10px 3px inset;
+  box-shadow: 0.5px 0.5px 10px 3px inset;
 }
-
 #works #box .card {
   width: 250px;
   height: 400px;
   direction: rtl;
   text-align: center;
 }
-
 #works #box .card img {
   width: 200px;
   height: 100px;
   object-fit: contain;
 }
-
 #works #box .card .card-footer .container {
   width: 150px;
-  background: linear-gradient(white, #0a7da6);
+  background: linear-gradient(white, rgb(10, 125, 166));
   box-shadow: 0px 0px 10px 10px white;
   border-radius: 30px;
 }
-
 #works #box .card .card-footer a {
   font-weight: 600;
 }
 
 #contact {
-  background-color: #4c879b;
+  background-color: rgb(76, 135, 155);
   direction: rtl;
   scroll-margin-top: 80px;
 }
-
 #contact div {
   font-weight: 600;
 }
-
 #contact div img {
-  box-shadow: -3px 3px 10px 0px black;
+  box-shadow: -3px 3px 10px 0px rgb(0, 0, 0);
 }
-
 #contact form label {
   font-size: 18px;
   width: 80px;
 }
-
 #contact form input {
   border: none;
   margin-bottom: 10px;
   width: 300px;
-  box-shadow: 3px 3px 10px 0px black;
+  box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
 }
-
 #contact form textarea {
   display: flex;
   flex-direction: column;
   width: 300px;
   height: 150px;
   margin: -20px 83px 0 0;
-  box-shadow: 3px 3px 10px 0px black;
+  box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
 }
-
 #contact form #send {
   font-weight: 600;
   width: 300px;
   height: 30px;
   border-radius: 30px;
   margin: 20px 83px 40px 0px;
-  box-shadow: 3px 3px 10px 0px black;
+  box-shadow: 3px 3px 10px 0px rgb(0, 0, 0);
 }
 
 #social {
@@ -207,9 +187,8 @@
   justify-content: space-around;
   width: 100%;
   height: 70px;
-  background-color: #060606;
+  background-color: rgb(6, 6, 6);
 }
-
 #social img {
   filter: drop-shadow(0px 0px 5px skyblue);
 }
@@ -277,7 +256,7 @@
     margin-bottom: 10px;
   }
   #about #resume button {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   #gallery {
     letter-spacing: 3px;
@@ -286,12 +265,16 @@
   #works {
     width: 100%;
     height: 250% !important;
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
   }
   #works #box {
-    width: 90% !important;
-    gap: 10px !important;
-    height: 1800px !important;
+    width: 90%;
+    gap: 10px;
+    height: 1850px !important;
+  }
+  #works #box .card h4 {
+    width: 96%;
+    padding-right: 5px;
   }
   #contact {
     height: auto;
@@ -337,12 +320,11 @@
     filter: drop-shadow(0px 0px 5px skyblue);
   }
 }
-
 @media (max-width: 1200px) {
   #main {
     height: 80px;
-    background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, #9cbdef);
-    box-shadow: 0 0 50px 10px #9cbdef;
+    background: radial-gradient(rgba(167, 225, 248, 0.692) 40%, rgb(156, 189, 239));
+    box-shadow: 0 0 50px 10px rgb(156, 189, 239);
   }
   #main #navBarBrand {
     font-family: dybbuk;
@@ -370,108 +352,20 @@
     margin: 5px 20px;
   }
   #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    height: 900px;
-    background-color: #4c879b;
-    padding-bottom: 30px;
-    scroll-margin-top: 80px;
-  }
-  #about #photo {
-    width: 130px;
-    height: 140px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-top: 50px;
-  }
-  #about #photo img {
-    width: 190px;
-    height: 210px;
-  }
-  #about #text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50%;
-    font-size: 20px;
-    background-color: rgba(167, 225, 248, 0.692);
-    box-shadow: 0 0 20px 10px #2e5a37;
-    margin-top: 30px;
-    padding: 70px 50px 60px 50px;
-    direction: rtl;
-  }
-  #about #resume {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 60px 0 0 0px;
-  }
-  #about #resume button {
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    margin-top: 0;
-    font-weight: 600;
-    box-shadow: 0 0 20px 0px #9cbdef;
-  }
-  #gallery {
-    letter-spacing: 3px;
-    scroll-margin-top: 80px;
+    padding-bottom: 0px;
   }
   #works {
     height: 1600px;
   }
-  #works #box {
-    box-shadow: .5px .5px 10px 3px inset;
-  }
-  #contact {
-    background-color: #4c879b;
-    direction: rtl;
-    scroll-margin-top: 80px;
-  }
-  #contact div {
-    font-weight: 600;
-  }
-  #contact div img {
-    box-shadow: -3px 3px 10px 0px black;
-  }
-  #contact form label {
-    font-size: 18px;
-    width: 80px;
-  }
   #contact form input {
-    border: none;
-    margin-bottom: 10px;
     width: 250px;
-    box-shadow: 3px 3px 10px 0px black;
   }
   #contact form textarea {
     width: 250px;
-    height: 150px;
     margin: -15px 83px 0 0;
   }
   #contact form #send {
-    font-weight: 600;
     width: 250px;
-    height: 30px;
-    border-radius: 30px;
     margin: 20px 85px 35px 0px;
-    box-shadow: 3px 3px 10px 0px black;
   }
-  #social {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 70px;
-    background-color: #060606;
-  }
-  #social img {
-    filter: drop-shadow(0px 0px 5px skyblue);
-  }
-}
+}/*# sourceMappingURL=index-he.css.map */
