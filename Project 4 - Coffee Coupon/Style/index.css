@@ -89,7 +89,71 @@
 
 /************************************************** Mobile *****************************************************/
 
-@media(max-width:768px) {
+@media(max-width:376px) {
+  #main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    #img-container {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+
+      }
+    }
+
+    #form-box {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      margin: -100px 0px 100px 0px !important;
+
+      h1 {
+        text-align: center;
+        width: 260px;
+        font-size: 28px;
+        margin-right: -40px;
+      }
+
+      p {
+        margin-right: -40px;
+        width: 260px;
+        text-align: center;
+        font-size: 12px !important;
+      }
+
+      label {
+        margin-right: -20px;
+        font-size: 10px !important;
+      }
+
+      input {
+        margin-right: -20px;
+        width: 220px !important;
+        height: 20px !important;
+        border-bottom: 2px solid #020253 !important;
+
+      }
+
+      button {
+        margin-right: -20px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        width: 220px !important;
+        height: 25px !important;
+        font-size: 13px !important;
+      }
+    }
+  }
+}
+
+@media(max-width:768px) and (min-width:377px) {
   #main {
     #img-container {
       width: 50%;
@@ -139,7 +203,7 @@
 }
 
 
-@media(max-width:1200px) {
+@media(max-width:1200px) and (min-width:769px) {
   #main {
     #img-container {
       width: 50%;

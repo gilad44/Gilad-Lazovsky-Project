@@ -168,7 +168,108 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:376px) {
+    #main {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+
+        #whatsapp {
+            display: none;
+        }
+
+
+        #top-stripe {
+            width: 80% !important;
+            height: 1.5% !important;
+        }
+
+        #bottom-stripe {
+            width: 100% !important;
+            height: 1.5% !important;
+            top: 200% !important;
+        }
+
+        #contact-img {
+            width: 20% !important;
+            height: auto !important;
+            margin: 50px 0px 0px 80px !important;
+
+            img {
+                width: auto !important;
+                height: 200px !important;
+            }
+        }
+
+        #text {
+            width: 250px;
+            height: 110px !important;
+            margin: 50px 0px 0px 0px !important;
+
+            h1 {
+                text-align: center;
+                width: 200px;
+                height: 40px;
+                font-size: 33px;
+                margin-right: 20px;
+            }
+
+            p {
+                text-align: center;
+                width: 250px;
+                font-size: 11px;
+            }
+        }
+
+        #contact {
+            flex-direction: column !important;
+            margin: 0px 0px 50px 0px !important;
+
+            div {
+                input {
+                    width: 300px !important;
+                    height: 30px !important;
+                }
+
+                label {
+                    font-size: 10px;
+                }
+
+                textarea {
+                    width: 300px !important;
+                    height: 70px;
+                    margin-left: 10px;
+                }
+            }
+
+            #send {
+                width: 300px;
+                margin: 20px 0px 0px 10px !important;
+                font-weight: 900;
+            }
+        }
+
+        #social {
+            width: 80% !important;
+            height: 8%;
+            top: 185% !important;
+            right: 6% !important;
+
+            div {
+                width: 50px !important;
+                height: 47px !important;
+
+                img {
+                    width: 40% !important;
+                    height: 40% !important;
+                }
+
+            }
+        }
+    }
+}
+
+@media(max-width:768px) and (min-width:377px) {
     #main {
         justify-content: flex-start;
         width: auto;
@@ -179,7 +280,7 @@
             top: 7%;
             left: 4%;
             width: 6% !important;
-            height: 9% !important;
+            height: 8% !important;
 
             img {
                 width: 50%;
@@ -203,8 +304,8 @@
             display: flex;
             align-items: flex-start;
             justify-content: flex-start;
-            width: 60%;
-            margin: 100px 60px 0px 50px;
+            width: 80% !important;
+            margin: 0px 30px 0px 80px !important;
 
             img {
                 width: 90%;
@@ -214,26 +315,30 @@
 
         #text {
             width: 250px;
-            height: 250px !important;
-            margin: 50px 0px 0px 450px;
+            height: 200px !important;
+            margin: 30px 0px 80px 450px !important;
 
             h1 {
                 width: 200px;
                 height: 40px;
-                font-size: 33px;
-                margin-left: 110px;
+                font-size: 37px !important;
+                margin-right: -45px !important;
             }
 
             p {
                 width: 250px;
-                font-size: 11px;
+                font-size: 12px !important;
+                margin-right: -45px !important;
             }
         }
 
         #contact {
+            margin: 250px -750px 50px 0px !important;
+
             div {
+
                 input {
-                    width: 333px !important;
+                    width: 200px !important;
                     height: 22px;
                 }
 
@@ -242,7 +347,7 @@
                 }
 
                 textarea {
-                    width: 333px !important;
+                    width: 410px !important;
                     height: 70px;
                 }
             }
@@ -254,8 +359,8 @@
         }
 
         #social {
-            width: 35% !important;
-            height: 8%;
+            width: 37% !important;
+            height: 8% !important;
             top: 117% !important;
             right: 60% !important;
 
@@ -263,17 +368,12 @@
                 width: 50%;
                 height: 120%;
 
-                img {
-                    width: 50% !important;
-                    height: 50% !important;
-                }
-
             }
         }
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width:1200px) and (min-width:769px) {
     #main {
         justify-content: flex-start;
         width: auto;
@@ -283,8 +383,8 @@
         #whatsapp {
             top: 7%;
             left: 4%;
-            width: 6%;
-            height: 12%;
+            width: 5%;
+            height: 9%;
 
             img {
                 width: 50%;
@@ -294,8 +394,8 @@
 
 
         #top-stripe {
-            width: 20%;
-            height: 8px;
+            width: 30%;
+            height: 2%;
         }
 
         #bottom-stripe {
@@ -320,18 +420,19 @@
         #text {
             width: 250px;
             height: 200px;
-            margin: 50px 0px 0px 450px;
+            margin: 50px 0px 70px 450px;
 
             h1 {
-                width: 200px;
+                width: 250px;
                 height: 40px;
-                font-size: 33px;
+                font-size: 43px;
                 margin-left: 110px;
+                margin-bottom: 30px;
             }
 
             p {
                 width: 250px;
-                font-size: 11px;
+                font-size: 13px;
                 margin: 15px 0px 0px 150px;
             }
         }
@@ -343,17 +444,17 @@
             div {
 
                 input {
-                    width: 233px;
-                    height: 22px;
+                    width: 263px;
+                    height: 32px;
                 }
 
                 label {
-                    font-size: 10px;
+                    font-size: 11px;
                 }
 
                 textarea {
-                    width: 476px;
-                    height: 70px;
+                    width: 536px;
+                    height: 80px;
                 }
             }
 

@@ -74,7 +74,55 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:376px) {
+    #main {
+        height: 550px !important;
+
+        #contact {
+            width: 300px !important;
+            height: 350px !important;
+            margin: 90px 35px 0 0 !important;
+
+            form {
+
+                legend {
+                    text-align: center !important;
+                    width: 150px;
+                    font-size: 20px !important;
+                    margin: 35px 75px 10px 0;
+                }
+
+                p {
+                    text-align: center !important;
+                    margin-bottom: 20px !important;
+                    margin-right: 50px !important;
+                    font-size: 10px !important;
+                    width: 200px !important;
+                }
+
+                label {
+                    margin-right: 45px !important;
+                    font-size: 8px !important;
+                }
+
+                input {
+                    width: 210px !important;
+                    height: 25px !important;
+                    margin-right: 45px !important;
+                }
+
+                button {
+                    width: 70px !important;
+                    height: 23px !important;
+                    margin-right: 45px !important;
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px) and (min-width:377px) {
     #main {
         height: 480px !important;
 
@@ -82,14 +130,13 @@
             width: 300px !important;
             height: 310px !important;
             margin: 70px 60px 0 0 !important;
-            width: 260px;
 
             form {
 
                 legend {
                     width: 200px;
                     font-size: 17px !important;
-                    margin: 45px 4px 10px 0 !important;
+                    margin: 45px 50px 10px 0 !important;
                 }
 
                 p {
@@ -121,7 +168,7 @@
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width:1200px) and (min-width:769px) {
     #main {
         width: 100%;
         height: 500px;
