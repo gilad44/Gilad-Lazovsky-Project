@@ -158,6 +158,10 @@
   height: auto;
 }
 
+#contact br {
+  display: none;
+}
+
 #contact div img {
   margin-left: -70px;
   box-shadow: -3px 3px 10px 0px black;
@@ -278,7 +282,7 @@
     margin-bottom: 10px;
   }
   #about #resume button {
-    margin-bottom: 20px;
+    margin-bottom: 40px !important;
   }
   #gallery {
     scroll-margin-top: 60px;
@@ -298,6 +302,9 @@
     margin-top: 0 !important;
     padding-top: 10px;
     scroll-margin-top: 60px;
+  }
+  #contact br {
+    display: inline;
   }
   #contact div img {
     visibility: hidden;

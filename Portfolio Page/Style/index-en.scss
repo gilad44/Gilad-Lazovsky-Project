@@ -185,6 +185,10 @@ $fw: 600;
     scroll-margin-top: 80px;
     height: auto;
 
+    br {
+        display: none;
+    }
+
     div {
 
         img {
@@ -330,7 +334,7 @@ $fw: 600;
 
         #resume {
             button {
-                margin-bottom: 20px;
+                margin-bottom: 40px !important;
             }
         }
     }
@@ -357,6 +361,10 @@ $fw: 600;
         margin-top: 0 !important;
         padding-top: 10px;
         scroll-margin-top: 60px;
+
+        br {
+            display: inline;
+        }
 
         div {
             img {
